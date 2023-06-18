@@ -1,12 +1,3 @@
-//const wordSearch = (letters, word) => { 
-    //const horizontalJoin = letters.map(ls => ls.join(''))
-    //for (l of horizontalJoin) {
-        //if (l.includes(word)) return true
-    //}
-//}
-
-//module.exports = wordSearch
-
 const transpose = matrix => matrix[0].map((_, colIndex) => matrix.map(row => row[colIndex]));
 
 const wordSearch = (letters, word) => {
